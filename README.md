@@ -1,6 +1,6 @@
-# Tribute Page
+# Tribute Page: Mahatma Gandhi
 
-Tribute page in memory of respected Mahatma Gandhi.
+Tribute page in the memory of respected Mahatma Gandhi.
 
 This is project made for **Freecodecamp's [responsive web design course](https://www.freecodecamp.org/learn)**.
 
