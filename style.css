@@ -29,16 +29,6 @@ body {
   font-weight: 300;
 }
 
-#title a {
-  text-decoration: none;
-  color: black;
-  transition: linear 0.1s;
-}
-
-#title a:hover {
-  text-decoration: underline;
-}
-
 #subtitle {
   font-family: "Libre Baskerville", serif;
 }
