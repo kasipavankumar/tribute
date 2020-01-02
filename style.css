@@ -2,270 +2,272 @@
 @import url("https://fonts.googleapis.com/css?family=Prata&display=swap");
 
 :root {
-  --main-color: #7fffd4;
-  --sep-color: #8c8984;
+    --main-color: #7fffd4;
+    --sep-color: #8c8984;
 }
 
 body {
-  margin: 0;
+    margin: 0;
 }
 
 #main {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  margin: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0;
 }
 
 #header {
-  text-align: center;
-  height: 75px;
-  background-color: #7fffd4;
+    text-align: center;
+    height: 75px;
+    background-color: #7fffd4;
 }
 
 #title,
 #subtitle {
-  font-family: "Prata", sans-serif;
-  font-weight: 300;
+    font-family: "Prata", sans-serif;
+    font-weight: 300;
 }
 
 #subtitle {
-  font-family: "Libre Baskerville", serif;
+    font-family: "Libre Baskerville", serif;
 }
 
 #img-div {
-  display: block;
-  text-align: center;
+    text-align: center;
 }
 
 #image {
-  margin-top: 10px;
-  width: 80vw;
-  height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 80vw;
+    max-width: 100%;
+    height: auto;
 }
 
 #img-caption,
 #sign-caption {
-  font-family: "Libre Baskerville", sans-serif;
-  font-size: 1em;
+    font-family: "Libre Baskerville", sans-serif;
+    font-size: 1em;
 }
 
 #seperator {
-  border-bottom: 5px solid var(--sep-color);
-  width: 100px;
-  margin: auto;
-  margin-top: 20px;
+    border-bottom: 5px solid var(--sep-color);
+    width: 100px;
+    margin: auto;
+    margin-top: 20px;
 }
 
 #tribute-info,
 #link {
-  font-family: "Libre Baskerville", serif;
-  text-align: center;
-  margin-left: 20px;
-  margin-right: 20px;
+    font-family: "Libre Baskerville", serif;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .head {
-  text-align: center;
-  font-weight: 500;
+    text-align: center;
+    font-weight: 500;
 }
 
 .content {
-  text-align: justify;
+    text-align: justify;
 }
 
 #signature {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  width: 80vw;
-  height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 80vw;
+    height: auto;
 }
 
 #tribute-link {
-  background: linear-gradient(
-    to bottom,
-    var(--main-color) 0%,
-    var(--main-color) 100%
-  );
-  background-position: 0 100%;
-  background-repeat: repeat-x;
-  background-size: 4px 4px;
-  color: #000;
-  text-decoration: none;
-  transition: linear 0.2s;
+    background: linear-gradient(
+        to bottom,
+        var(--main-color) 0%,
+        var(--main-color) 100%
+    );
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 4px 4px;
+    color: #000;
+    text-decoration: none;
+    transition: linear 0.2s;
 }
 
 #tribute-link:hover {
-  background-size: 4px 50px;
+    background-size: 4px 50px;
 }
 
 #footer {
-  text-align: center;
-  height: 75px;
+    text-align: center;
+    height: 75px;
 }
 
 /* Font wrap */
 @media screen and (max-width: 271px) {
-  #header {
-    height: 110px;
-  }
+    #header {
+        height: 110px;
+    }
 
-  #image {
-    height: auto;
-    width: 80vw;
-  }
+    #image {
+        height: auto;
+        width: 80vw;
+    }
 
-  #signature {
-    width: 80vw;
-    height: auto;
-  }
+    #signature {
+        width: 80vw;
+        height: auto;
+    }
 
-  #img-caption,
-  #sign-caption {
-    font-size: 0.5em;
-  }
+    #img-caption,
+    #sign-caption {
+        font-size: 0.5em;
+    }
 }
 
 @media screen and (max-width: 320px) {
-  #image {
-    height: auto;
-    width: 90vw;
-  }
+    #image {
+        height: auto;
+        width: 90vw;
+    }
 
-  #signature {
-    width: 80vw;
-    height: auto;
-  }
+    #signature {
+        width: 80vw;
+        height: auto;
+    }
 
-  #img-caption,
-  #sign-caption {
-    font-size: 2vmax;
-  }
+    #img-caption,
+    #sign-caption {
+        font-size: 2vmax;
+    }
 }
 
 @media screen and (max-width: 375px) {
-  #image {
-    width: 80vw;
-    height: auto;
-  }
+    #image {
+        width: 80vw;
+        height: auto;
+    }
 
-  #signature {
-    width: 80vw;
-    height: auto;
-  }
+    #signature {
+        width: 80vw;
+        height: auto;
+    }
 
-  #img-caption,
-  #sign-caption {
-    font-size: 3vmax;
-  }
+    #img-caption,
+    #sign-caption {
+        font-size: 3vmax;
+    }
 }
 
 @media screen and (min-width: 425px) {
-  #image {
-    width: 80vw;
-    height: auto;
-  }
+    #image {
+        width: 80vw;
+        height: auto;
+    }
 
-  #signature {
-    width: 80vw;
-    height: auto;
-  }
+    #signature {
+        width: 80vw;
+        height: auto;
+    }
 
-  #img-caption,
-  #sign-caption {
-    font-size: 0.7em;
-  }
+    #img-caption,
+    #sign-caption {
+        font-size: 0.7em;
+    }
 }
 
 @media screen and (min-width: 768px) {
-  #image {
-    width: 80vw;
-    height: auto;
-  }
+    #image {
+        width: 80vw;
+        height: auto;
+    }
 
-  #signature {
-    width: 50vw;
-    height: auto;
-  }
+    #signature {
+        width: 50vw;
+        height: auto;
+    }
 
-  #img-caption,
-  #sign-caption {
-    font-size: 0.8em;
-  }
+    #img-caption,
+    #sign-caption {
+        font-size: 0.8em;
+    }
 }
 
 @media screen and (min-width: 1024px) {
-  #image {
-    width: 50vw;
-    height: auto;
-  }
+    #image {
+        width: 50vw;
+        height: auto;
+    }
 
-  #signature {
-    width: 30vw;
-    height: auto;
-  }
+    #signature {
+        width: 30vw;
+        height: auto;
+    }
 
-  #img-caption,
-  #sign-caption {
-    font-size: 0.8em;
-  }
+    #img-caption,
+    #sign-caption {
+        font-size: 0.8em;
+    }
 }
 
 @media screen and (min-width: 1080px) {
-  #image {
-    width: auto;
-    height: 50vh;
-  }
+    #image {
+        width: auto;
+        height: 50vh;
+    }
 
-  #signature {
-    width: 30vw;
-    height: auto;
-  }
+    #signature {
+        width: 30vw;
+        height: auto;
+    }
 
-  #img-caption,
-  #sign-caption {
-    font-size: 1em;
-  }
+    #img-caption,
+    #sign-caption {
+        font-size: 1em;
+    }
 }
 
 @media screen and (min-width: 1440px) {
-  #image {
-    width: auto;
-    height: 60vh;
-  }
+    #image {
+        width: auto;
+        height: 60vh;
+    }
 
-  #signature {
-    width: 20vw;
-    height: auto;
-  }
+    #signature {
+        width: 20vw;
+        height: auto;
+    }
 
-  #img-caption,
-  #sign-caption {
-    font-size: 0.8em;
-  }
+    #img-caption,
+    #sign-caption {
+        font-size: 0.8em;
+    }
 
-  .content {
-    text-align: justify;
-  }
+    .content {
+        text-align: justify;
+    }
 }
 
 @media screen and (min-width: 2560px) {
-  #image {
-    width: auto;
-    height: auto;
-  }
+    #image {
+        width: auto;
+        height: auto;
+    }
 
-  #signature {
-    width: 20vw;
-    height: auto;
-  }
+    #signature {
+        width: 20vw;
+        height: auto;
+    }
 
-  #img-caption,
-  #sign-caption {
-    font-size: 1em;
-  }
+    #img-caption,
+    #sign-caption {
+        font-size: 1em;
+    }
 
-  .content {
-    text-align: justify;
-  }
+    .content {
+        text-align: justify;
+    }
 }
